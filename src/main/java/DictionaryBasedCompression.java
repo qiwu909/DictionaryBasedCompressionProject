@@ -10,11 +10,11 @@ public class DictionaryBasedCompression {
         }
         return sb.toString();
     }
-    public String RemovePunctuations(String str){
-        str = str.replaceAll("\\p{Punct}","");
-        return str;
-    }
-  public static void main(String[] args){
+   public String RemovePunctuations(String str){
+       str = str.replaceAll("\\p{Punct}","");
+       return str;
+   }
+   public static void main(String[] args){
 
-    }
+   }
 }
